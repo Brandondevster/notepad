@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-$c4af-23x1^m%bh6zs(pwt-zg2z4k!!mi^ijvv)b0wf)nm+90y'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['https://notepad.hostman.site/', '127.0.0.1']
 
