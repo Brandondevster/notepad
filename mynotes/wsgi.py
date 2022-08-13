@@ -7,10 +7,12 @@ For more information on this file, see
 https://docs.djangoproject.com/en/4.0/howto/deployment/wsgi/
 """
 
-
+import os
 
 from django.core.wsgi import get_wsgi_application
 
-('DJANGO_SETTINGS_MODULE', 'mynotes.settings')
+os.environ('DJANGO_SETTINGS_MODULE', 'mynotes.settings')
+
+
 
 application = get_wsgi_application()
